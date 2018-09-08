@@ -7,16 +7,12 @@ function printBadges(names) {
 }
 
 
-function maybeTrue() {
-    return Math.random() >= 0.5;
-}
-
 function tailsNeverFails() {
     let counter = 0;
-    maybeTrue();
-    while(){
+    
+    while(Math.random() >= 0.5){
         counter++
     }
-    
+
     console.log(`You got ${counter} Tails in a row!`);
 }
