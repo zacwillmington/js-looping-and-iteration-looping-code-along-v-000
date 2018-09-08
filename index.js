@@ -13,6 +13,7 @@ function maybeTrue() {
 
 function tailsNeverFails() {
     let counter = 0;
+    maybeTrue();
     // while(!maybeTrue()){
     //     counter++
     // }
