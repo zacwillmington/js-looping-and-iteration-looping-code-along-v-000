@@ -11,10 +11,10 @@ function maybeTrue() {
     return Math.random() >= 0.5;
 }
 
-// function tailsNeverFails() {
-//     let counter = 0;
-//     while(!maybeTrue()){
-//         counter++
-//     }
-//     console.log(`You got ${counter} Tails in a row!`);
-// }
+function tailsNeverFails() {
+    let counter = 0;
+    // while(!maybeTrue()){
+    //     counter++
+    // }
+    console.log(`You got ${counter} Tails in a row!`);
+}
