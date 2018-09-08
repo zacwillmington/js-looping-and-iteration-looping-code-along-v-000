@@ -14,8 +14,9 @@ function maybeTrue() {
 function tailsNeverFails() {
     let counter = 0;
     maybeTrue();
-    // while(!maybeTrue()){
-    //     counter++
-    // }
+    while(){
+        counter++
+    }
+    
     console.log(`You got ${counter} Tails in a row!`);
 }
